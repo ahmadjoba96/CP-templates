@@ -31,7 +31,8 @@ using namespace std;
 void yes() { cout << "YES\n"; }
 void no() { cout << "NO\n"; }
 long long digits(int n) {return log(n) / log(10) + 1;}
-
+const int dx[4] = {1, 0, -1, 0};
+const int dy[4] = {0, 1, 0, -1};
 void solve()
 {
 
